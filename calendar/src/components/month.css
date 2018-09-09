@@ -1,0 +1,25 @@
+.month {
+  width: 46%;
+  margin: 0 1%;
+}
+.week {
+  width: 100%;
+}
+.week td.empty {
+  background-color: lightgray;
+}
+.week td {
+  background-color: rgb(52, 180, 52);
+  width: 14.2857142857%;
+  height: 1em;
+  border: 1px solid white;
+  text-align: center;
+}
+.week td:first-child,
+.week td:last-child {
+  background-color: yellow;
+}
+thead tr + tr th {
+  text-align: center;
+  background-color: rgb(70, 252, 70);
+}
